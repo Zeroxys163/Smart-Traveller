@@ -1,0 +1,6 @@
+targetText = "email.txt"
+
+with open(targetText, "r") as f:
+    theText = f.read()
+
+print("This string has", "{:,}".format(len(theText)), "characters")
